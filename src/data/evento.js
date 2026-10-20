@@ -12,13 +12,13 @@ export const destaquesSobre = [
 ];
 
 export const programacao = [
-  { id: 1, dia: "Sáb", horario: "16h", atividade: "Abertura os portões e DJ Set de abertura" },
-  { id: 2, dia: "Sáb", horario: "17h", atividade: "Show: Sabrina Carpenter" },
-  { id: 3, py: "Sáb", horario: "19h", atividade: "Show: Olivia Rodrigo" },
+  { id: 1, dia: "Sáb", horario: "16h", atividade: "Abertura os portões e abertura" },
+  { id: 2, dia: "Sáb", horario: "17h", atividade: "Show: Olivia Rodrigo" },
+  { id: 3, py: "Sáb", horario: "19h", atividade: "Show: Harry Styles" },
   { id: 4, dia: "Sáb", horario: "21h", atividade: "Show Principal: Taylor Swift" },
   { id: 5, dia: "Dom", horario: "16h", atividade: "Painel de Dança & K-pop de abertura" },
   { id: 6, dia: "Dom", horario: "17h", atividade: "Show: Cortis" },
-  { id: 7, dia: "Dom", horario: "19h", atividade: "Show: Harry Styles" },
+  { id: 7, dia: "Dom", horario: "19h", atividade: "Show: Sabrina Carpenter" },
   { id: 8, dia: "Dom", horario: "21h", atividade: "Show de Encerramento: BTS" }
 ];
 
@@ -32,6 +32,6 @@ export const atracoes = [
 ];
 
 export const tiposIngresso = [
-  "Pista Premium Pop Pass — R$ 1350",
-  "Solidário (+1 kg de alimento) — R$ 1200"
+  "Pista Premium Pop Pass — R$ 2350",
+  "Solidário (+1 kg de alimento) — R$ 2200"
 ];
