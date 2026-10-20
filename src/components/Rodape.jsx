@@ -1,7 +1,9 @@
-import { evento } from '../data/evento'
-
 function Rodape() {
-    return <footer>{evento.nome} · {evento.data}</footer>
+    return (
+        <footer>
+            <h2>Rodapé</h2>
+        </footer>
+    );
 }
 
-export default Rodape
+export default Rodape;
