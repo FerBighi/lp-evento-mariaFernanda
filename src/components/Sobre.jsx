@@ -1,11 +1,14 @@
-import { destaquesSobre } from '../data/evento';
+import { destaquesSobre, evento } from '../data/evento';
 
 function Sobre() {
     return (
         <section id="sobre" className="py-16 px-6 max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-slate-800 mb-4">Sobre o Festival</h2>
+            {/* Lendo o nome dinâmico do festival */}
+            <h2 className="text-3xl font-bold text-slate-800 mb-4">Sobre o {evento.nome}</h2>
+
+            {/* CORRIGIDO: Lendo o slogan dinâmico do Allianz Parque */}
             <p className="text-slate-600 max-w-2xl mx-auto mb-12 text-base leading-relaxed">
-                O Som da Alta Paulista reúne bandas independentes da região em dois palcos ao ar livre. Além dos shows, tem feira de artesanato, food trucks e oficinas gratuitas para quem quer começar a tocar. A renda dos ingressos solidários vai para o projeto de música da escola municipal.
+                {evento.slogan} Prepare-se para vivenciar uma estrutura fantástica e apresentações memoráveis das maiores estrelas do cenário pop internacional.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
