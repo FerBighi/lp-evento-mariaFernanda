@@ -35,3 +35,9 @@ export const tiposIngresso = [
   "Pista Premium Pop Pass — R$ 2350",
   "Solidário (+1 kg de alimento) — R$ 2200"
 ];
+
+export const faq = [
+  { id: 1, pergunta: "Pode levar criança?", resposta: "Sim. Menores de 16 anos entram acompanhados de um responsável." },
+  { id: 2, pergunta: "Tem estacionamento?", resposta: "Sim, gratuito, ao lado do parque." },
+  { id: 3, pergunta: "E se chover?", resposta: "Os dois palcos são cobertos e o festival acontece com chuva." }
+];
