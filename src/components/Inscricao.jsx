@@ -49,7 +49,7 @@ function Inscricao() {
         <section id="inscricao" className="py-16 px-6 max-w-md mx-auto">
             <div className="bg-white p-8 rounded-2xl shadow-md border border-slate-100">
                 <h2 className="text-2xl font-bold text-slate-800 mb-2 text-center">Garanta seu Ingresso</h2>
-                <p className="text-slate-400 text-xs text-center mb-6">Preencha o formulário abaixo para validar sua participação.</p>
+                <p className="text-slate-600 text-xs text-center mb-6">Preencha o formulário abaixo para validar sua participação.</p>
 
                 <form onSubmit={enviar} className="space-y-4">
                     {erro && (
