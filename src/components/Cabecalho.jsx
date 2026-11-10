@@ -22,7 +22,7 @@ function Cabecalho() {
                 <li><a href="#sobre" onClick={() => setMenuAberto(false)} className="hover:text-rosa-destaque transition-colors py-1 block">Sobre</a></li>
                 <li><a href="#programacao" onClick={() => setMenuAberto(false)} className="hover:text-rosa-destaque transition-colors py-1 block">Programação</a></li>
                 <li><a href="#atracoes" onClick={() => setMenuAberto(false)} className="hover:text-rosa-destaque transition-colors py-1 block">Atrações</a></li>
-                <li><a href="#faq" onClick={() => setMenuAberto(false)} className="hover:text-rosa-destaque transition-colors py-1 block">FAQ</a></li>
+                <li><a href="#faq" onClick={() => setMenuAberto(false)} className="hover:text-rosa-destaque transition-colors py-1 block">Dúvidas Frequentes</a></li>
                 <li><a href="#inscricao" onClick={() => setMenuAberto(false)} className="hover:text-rosa-destaque transition-colors py-1 block text-roxo-destaque font-bold">Garantir Ingresso</a></li>
             </ul>
         </nav>

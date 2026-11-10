@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
       <Cabecalho />
-      <main className="grow">
+      <main id="main" className="grow">
         <Hero />
         <Sobre />
         <Programacao />
