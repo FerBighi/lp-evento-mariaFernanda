@@ -8,7 +8,7 @@ function Cabecalho() {
         <nav className="bg-white text-slate-800 sticky top-0 z-50 px-4 py-4 shadow-sm border-b border-roxo-fundo flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="flex justify-between items-center w-full sm:w-auto">
                 <span className="font-extrabold text-xl tracking-wide text-roxo-destaque">
-                    {evento.nome}
+                    {evento.nome} 
                 </span>
                 <button
                     onClick={() => setMenuAberto(!menuAberto)}
