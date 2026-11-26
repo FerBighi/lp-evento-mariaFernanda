@@ -40,7 +40,7 @@ function BotaoLembrete() {
                 onClick={ativarLembrete}
                 className="flex items-center justify-center bg-white text-roxo-destaque border-2 border-roxo-destaque font-bold px-6 py-3 rounded-xl hover:bg-roxo-fundo transition-all shadow-sm cursor-pointer min-h-11 w-fit mx-auto"
             >
-                Me lembre do evento
+                Me lembre do evento!
             </button>
             {mensagem && (
                 <p role="status" className="mt-2 text-sm font-semibold text-roxo-destaque">
